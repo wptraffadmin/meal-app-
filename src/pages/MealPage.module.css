@@ -1,0 +1,88 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.info {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.ingredients {
+  margin-bottom: 1.5rem;
+}
+
+.ingredientsTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.ingredientsList {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.ingredientsList li {
+  margin-bottom: 0.5rem;
+}
+
+.instructions {
+  margin-bottom: 1.5rem;
+}
+
+.instructionsTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.instructionsText {
+  white-space: pre-line;
+}
+
+.youtubeLink {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.youtubeLink:hover {
+  color: #2563eb;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #666;
+}
+
+.error {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #ef4444;
+} 
