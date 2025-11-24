@@ -1,7 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { api } from '../services/api';
-import { MealCard } from '../components/MealCard';
 import styles from './MealPage.module.css';
 
 export const MealPage = () => {

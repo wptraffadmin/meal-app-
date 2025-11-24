@@ -65,7 +65,7 @@ export const SelectedMealsPage = () => {
 
       <div className={styles.instructions}>
         <h2 className={styles.instructionsTitle}>Інструкції по приготуванню</h2>
-        {selectedMeals.map((meal, index) => (
+        {selectedMeals.map((meal) => (
           <div key={meal.idMeal} className={styles.recipeInstructions}>
             <h3 className={styles.recipeTitle}>{meal.strMeal}</h3>
             <p className={styles.instructionsText}>{meal.strInstructions}</p>
